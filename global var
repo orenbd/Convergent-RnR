@@ -1,0 +1,23 @@
+VAR_GLOBAL
+	//Registration Data from RDS
+		LasReg AT%I*:INT;
+		RobReg AT%I*:INT;
+		CamReg AT%I*:INT;
+				
+	//Report Self bit
+		RobSelfBit AT%I*:BOOL;
+		CamSelfBit AT%I*:BOOL;
+		ReportSelfBit AT%Q*:BOOL;
+				
+	//Report System Status + Safty
+		ReportsysStat AT%Q*:BOOL;
+		ReportsafStat AT%Q*:BOOL;
+		
+	//Get Robot Location	
+		GetRobLocX AT%I*:INT;
+		GetRobLocY AT%I*:INT;
+		GetRobLocZ AT%I*:INT;
+		GetRobLocA AT%I*:INT;
+		GetRobLocB AT%I*:INT;
+		GetRobLocC AT%I*:INT;
+		END VAR_GLOBAL
